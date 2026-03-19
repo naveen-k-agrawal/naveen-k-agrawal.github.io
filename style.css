@@ -274,6 +274,11 @@ main {
   letter-spacing: .4px;
 }
 
+.pub-badge.cite {
+  background: #f0fdf4;
+  color: #166534;
+}
+
 .pub-links { display: flex; gap: 10px; flex-wrap: wrap; }
 .pub-links a {
   font-size: .8rem;
