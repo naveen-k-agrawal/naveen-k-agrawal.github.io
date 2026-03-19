@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Naveen K. Agrawal</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ── HEADER ── -->
+  <header>
+    <div class="header-inner">
+      <div class="brand">Naveen K. Agrawal</div>
+      <nav>
+        <a href="#home"         class="nav-link active" data-tab="home">Home</a>
+        <a href="#projects"     class="nav-link"        data-tab="projects">Projects</a>
+        <a href="#publications" class="nav-link"        data-tab="publications">Publications</a>
+        <a href="#gallery"      class="nav-link"        data-tab="gallery">Gallery</a>
+        <a href="#contact"      class="nav-link"        data-tab="contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── MAIN ── -->
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="tab active">
+      <div class="home-grid">
+        <div class="home-photo">
+          <img src="assets/images/profile.jpg" alt="Naveen K. Agrawal"
+               onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" />
+          <div class="photo-placeholder">
+            <i class="fa fa-user"></i>
+          </div>
+          <div class="social-links">
+            <a href="mailto:your@email.com"              title="Email"><i class="fa fa-envelope"></i></a>
+            <a href="https://github.com/naveen-k-agrawal" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="#"                                   target="_blank" title="Google Scholar"><i class="fa fa-graduation-cap"></i></a>
+            <a href="#"                                   target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#"                                   target="_blank" title="Twitter / X"><i class="fab fa-x-twitter"></i></a>
+          </div>
+        </div>
+
+        <div class="home-bio">
+          <h1>Naveen K. Agrawal</h1>
+          <p class="position">PhD Student · Your University</p>
+          <p class="dept">Department of Computer Science &amp; Engineering</p>
+
+          <p class="bio">
+            I am a PhD student at [Your University] working with
+            <a href="#">Prof. Advisor Name</a>.
+            My research lies at the intersection of
+            <strong>machine learning</strong>, <strong>systems</strong>, and
+            <strong>[your area]</strong>.
+            I am broadly interested in building efficient, reliable, and
+            interpretable AI systems.
+          </p>
+
+          <p class="bio">
+            Before my PhD, I completed my undergraduate degree at
+            [Your Undergrad University] in [Year].
+            I have interned at [Company / Lab] and [Company / Lab].
+          </p>
+
+          <div class="news">
+            <h2>News</h2>
+            <ul>
+              <li><span class="tag">Mar 2026</span> Paper accepted at [Conference].</li>
+              <li><span class="tag">Jan 2026</span> Started internship at [Company].</li>
+              <li><span class="tag">Sep 2025</span> Joined [University] as a PhD student.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="tab">
+      <h2 class="section-title">Projects</h2>
+      <div class="card-grid">
+
+        <div class="card">
+          <div class="card-img placeholder-img"><i class="fa fa-diagram-project"></i></div>
+          <div class="card-body">
+            <h3>Project Title One</h3>
+            <p class="card-meta">Collaborators · 2025–Present</p>
+            <p>Short description of the project. What problem it solves, what approach you take, and what results you achieved.</p>
+            <div class="card-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fa fa-file-lines"></i> Paper</a>
+              <a href="#"><i class="fa fa-globe"></i> Website</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img placeholder-img"><i class="fa fa-diagram-project"></i></div>
+          <div class="card-body">
+            <h3>Project Title Two</h3>
+            <p class="card-meta">Collaborators · 2024</p>
+            <p>Short description of the project. What problem it solves, what approach you take, and what results you achieved.</p>
+            <div class="card-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fa fa-file-lines"></i> Paper</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-img placeholder-img"><i class="fa fa-diagram-project"></i></div>
+          <div class="card-body">
+            <h3>Project Title Three</h3>
+            <p class="card-meta">Collaborators · 2023</p>
+            <p>Short description of the project. What problem it solves, what approach you take, and what results you achieved.</p>
+            <div class="card-links">
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fa fa-globe"></i> Demo</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications" class="tab">
+      <h2 class="section-title">Publications</h2>
+      <p class="pub-note">* denotes equal contribution. See also: <a href="#">Google Scholar</a>.</p>
+
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-year">2026</div>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="#">Your Paper Title Here: A Long Descriptive Title</a>
+            </h3>
+            <p class="pub-authors">
+              <strong>Naveen K. Agrawal</strong>, Co-Author One, Co-Author Two, Advisor Name
+            </p>
+            <p class="pub-venue">
+              <em>Conference on Machine Learning (ICML)</em>, 2026
+            </p>
+            <div class="pub-links">
+              <a href="#"><i class="fa fa-file-pdf"></i> PDF</a>
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fa fa-quote-left"></i> BibTeX</a>
+              <a href="#"><i class="fa fa-globe"></i> Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-year">2025</div>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="#">Another Paper Title: Subtitle Here</a>
+            </h3>
+            <p class="pub-authors">
+              Co-Author One*, <strong>Naveen K. Agrawal*</strong>, Advisor Name
+            </p>
+            <p class="pub-venue">
+              <em>Neural Information Processing Systems (NeurIPS)</em>, 2025
+            </p>
+            <div class="pub-links">
+              <a href="#"><i class="fa fa-file-pdf"></i> PDF</a>
+              <a href="#"><i class="fab fa-github"></i> Code</a>
+              <a href="#"><i class="fa fa-quote-left"></i> BibTeX</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-item">
+          <div class="pub-year">2024</div>
+          <div class="pub-content">
+            <h3 class="pub-title">
+              <a href="#">Workshop Paper or Preprint Title</a>
+            </h3>
+            <p class="pub-authors">
+              <strong>Naveen K. Agrawal</strong>, Co-Author One
+            </p>
+            <p class="pub-venue">
+              <em>Workshop on [Topic], NeurIPS</em>, 2024
+              <span class="pub-badge">Workshop</span>
+            </p>
+            <div class="pub-links">
+              <a href="#"><i class="fa fa-file-pdf"></i> PDF</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="tab">
+      <h2 class="section-title">Gallery</h2>
+      <p class="gallery-desc">Photos from conferences, travels, and research life.</p>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="conferences">Conferences</button>
+        <button class="filter-btn" data-filter="research">Research</button>
+        <button class="filter-btn" data-filter="travel">Travel</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-cat="conferences">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">Conference Name, City · 2025</div>
+        </div>
+        <div class="gallery-item" data-cat="research">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">Lab retreat · 2025</div>
+        </div>
+        <div class="gallery-item" data-cat="travel">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">City Name · 2024</div>
+        </div>
+        <div class="gallery-item" data-cat="conferences">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">NeurIPS, Vancouver · 2024</div>
+        </div>
+        <div class="gallery-item" data-cat="travel">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">Travel photo · 2024</div>
+        </div>
+        <div class="gallery-item" data-cat="research">
+          <div class="gallery-placeholder"><i class="fa fa-image"></i></div>
+          <div class="gallery-caption">Research visit · 2023</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="tab">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>I am always happy to chat about research, collaborations, or anything else. Feel free to reach out!</p>
+          <ul class="contact-list">
+            <li>
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:nagrawal@youruni.edu">nagrawal@youruni.edu</a>
+            </li>
+            <li>
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/naveen-k-agrawal" target="_blank">github.com/naveen-k-agrawal</a>
+            </li>
+            <li>
+              <i class="fab fa-linkedin"></i>
+              <a href="#" target="_blank">LinkedIn</a>
+            </li>
+            <li>
+              <i class="fa fa-location-dot"></i>
+              Office Room, Building Name<br>
+              University Name<br>
+              City, State ZIP
+            </li>
+          </ul>
+        </div>
+        <div class="contact-cv">
+          <a href="assets/cv.pdf" class="cv-btn" target="_blank">
+            <i class="fa fa-file-lines"></i> Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>© 2026 Naveen K. Agrawal · Built with ♥ ·
+      <a href="https://github.com/naveen-k-agrawal/naveen-k-agrawal.github.io" target="_blank">Source</a>
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
